@@ -27,9 +27,9 @@ Nope, it does not. It is just a way to give a nice touch to the backend.
 
 == Screenshots ==
 
-1.
-2.
-3.
+1. Pages
+2. Dashboard
+3. Posts
 
 == Changelog ==
 
