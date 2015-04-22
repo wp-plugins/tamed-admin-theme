@@ -1,0 +1,20 @@
+.button{
+  height: 30px !important;
+  line-height: 30px !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: #e0e0e0 !important;
+  border-radius: 2px !important;
+  
+  &:hover{
+    background: #c0c0c0 !important;
+  }
+  
+  &.button-primary{
+    background: $blue !important;
+    
+    &:hover{
+      background: $blue-medium !important;
+    }
+  }
+}

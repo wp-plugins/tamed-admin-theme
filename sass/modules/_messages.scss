@@ -1,0 +1,26 @@
+#message{
+  margin: 15px 0;
+  border: thin solid $grey;
+}
+
+.updated{
+  border-left: 4px solid #7ad03a;
+}
+
+.update-nag{
+  display: none;
+}
+
+.update-plugins{
+  width: 5px;
+  height: 5px;
+  border-radius: 100% !important;
+  color: transparent;
+  vertical-align: middle !important;
+  margin: 0 !important;
+  margin-left: 5px !important;
+  
+  *{
+    color: transparent;
+  }
+}

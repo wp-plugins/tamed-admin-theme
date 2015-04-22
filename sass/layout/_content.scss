@@ -1,0 +1,46 @@
+#wpcontent{
+  background: $white;
+  
+  #wpadminbar{
+    
+  }
+  
+  #wpbody{
+    #wpbody-content{
+      padding-bottom: 0;
+      
+      > *{
+        margin-left: 40px;
+      }
+      
+      .wrap{
+        margin: 50px 0 0;
+        padding: 25px 40px 65px;
+        background: $grey-light;
+        
+        .nav-tab-wrapper{
+          width: 100%;
+          margin-left: -40px;
+          margin-bottom: 25px;
+          padding-left: 40px;
+          padding-right: 40px;
+          background: $white;
+          border-bottom: 0;
+          
+          .nav-tab{
+            margin: 0;
+            padding: 0 12px 6px;
+            border: none;
+            background: none;
+            
+            &.nav-tab-active,
+            &:hover{
+              border-bottom: 3px solid $blue;
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,137 @@
+#wpadminbar{
+  background: $blue-dark;
+}
+
+#adminmenuback,
+#adminmenuwrap,
+#adminmenu{
+  width: 180px;
+  z-index: $zIndex-adminMenu;
+  background: $grey-dark;
+  border-right: none;
+}
+
+#adminmenuwrap{
+  *{
+    transition-delay: 0;
+    transition-duration: 0;
+    transition-property: none;
+    transition-timing-function: 0;
+  }
+  
+  ul#adminmenu{
+    margin: 0;
+    
+    li{
+      a{
+        padding: 5px 2px !important;
+        
+        //This is the right-side arrow
+        &:after{
+          display: none;
+        }
+        
+        .wp-menu-arrow{
+          
+        }
+        
+        .wp-menu-image{
+          &:before{
+            color: $white;
+          }
+        }
+        
+        .wp-menu-name{
+          padding-right: 0;
+          color: $white;
+        }
+      }
+      
+      //Arrow when hovered
+      &:after{
+        display: none;
+      }
+      
+      //Currently selected menu item
+      &.current,
+      &.wp-has-current-submenu{
+        a.wp-has-submenu{
+          
+        }
+        
+        a{
+          background: $blue;
+          
+          .wp-menu-name{
+            font-weight: bold;
+            color: $white;
+          }
+        }
+      }
+      
+      &.wp-not-current-submenu{
+        ul.wp-submenu{
+          left: 180px;
+        }
+      }
+      
+      //Menu item with submenu
+      &.wp-has-submenu{
+        a{
+          
+        }
+        
+        ul.wp-submenu{
+          width: 180px;
+          background: $blue-dark;
+          
+          li{
+            padding: 0px 10px;
+            
+            &.wp-submenu-header{
+            
+            }
+          
+            &.wp-first-item{
+            
+            }
+            
+            a{
+              padding: 6px 12px;
+              color: $grey;
+              background: transparent;
+              
+              &.current{
+                color: $white;
+              }
+              
+              &:hover{
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+      
+      //Different states
+      &:hover,
+      &:focus{
+        a{
+          color: $white;
+          background: $blue;
+        }
+      }
+      
+      &:visited{
+        
+      }
+      
+      //Admin menu group seperator
+      &.wp-menu-separator{
+        height: 1px;
+        margin: 0;
+        background: $blue-dark;
+      }
+    }
+  }
+}
