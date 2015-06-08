@@ -50,3 +50,8 @@
 #post-status-info{
   box-shadow: none !important;
 }
+
+// Z-index
+.wp-editor-expand div.mce-toolbar-grp{
+  z-index: $zIndex-content;
+}

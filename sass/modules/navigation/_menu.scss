@@ -6,7 +6,7 @@
 #adminmenuwrap,
 #adminmenu{
   width: 180px;
-  z-index: $zIndex-adminMenu;
+  z-index: $zIndex-adminMenu !important;
   background: $grey-dark;
   border-right: none;
 }
@@ -72,6 +72,8 @@
       &.wp-not-current-submenu{
         ul.wp-submenu{
           left: 180px;
+          
+          box-shadow: none !important;
         }
       }
       

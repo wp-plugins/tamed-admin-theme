@@ -22,32 +22,34 @@ a {
 #wpwrap {
   background: #F2F2F2; }
 
-#wpcontent #wpbody #wpbody-content {
-  padding-bottom: 0; }
-  #wpcontent #wpbody #wpbody-content > * {
-    margin-left: 40px; }
-  #wpcontent #wpbody #wpbody-content .wrap {
-    margin: 44px 0 0;
-    padding: 25px 40px 65px;
-    background: #F2F2F2; }
-    #wpcontent #wpbody #wpbody-content .wrap .nav-tab-wrapper {
-      width: 100%;
-      margin-left: -40px;
-      margin-top: -70px;
-      margin-bottom: 25px;
-      padding-top: 80px;
-      padding-left: 40px;
-      padding-right: 40px;
-      background: white;
-      border-bottom: 0; }
-      #wpcontent #wpbody #wpbody-content .wrap .nav-tab-wrapper .nav-tab {
-        margin: 0;
-        padding: 0 12px 6px;
-        border: none;
-        background: none; }
-        #wpcontent #wpbody #wpbody-content .wrap .nav-tab-wrapper .nav-tab.nav-tab-active, #wpcontent #wpbody #wpbody-content .wrap .nav-tab-wrapper .nav-tab:hover {
-          border-bottom: 3px solid #4BA0D9;
-          background: transparent; }
+#wpcontent {
+  z-index: 500; }
+  #wpcontent #wpbody #wpbody-content {
+    padding-bottom: 0; }
+    #wpcontent #wpbody #wpbody-content > * {
+      margin-left: 40px; }
+    #wpcontent #wpbody #wpbody-content .wrap {
+      margin: 44px 0 0;
+      padding: 25px 40px 65px;
+      background: #F2F2F2; }
+      #wpcontent #wpbody #wpbody-content .wrap .nav-tab-wrapper {
+        width: 100%;
+        margin-left: -40px;
+        margin-top: -70px;
+        margin-bottom: 25px;
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background: white;
+        border-bottom: 0; }
+        #wpcontent #wpbody #wpbody-content .wrap .nav-tab-wrapper .nav-tab {
+          margin: 0;
+          padding: 0 12px 6px;
+          border: none;
+          background: none; }
+          #wpcontent #wpbody #wpbody-content .wrap .nav-tab-wrapper .nav-tab.nav-tab-active, #wpcontent #wpbody #wpbody-content .wrap .nav-tab-wrapper .nav-tab:hover {
+            border-bottom: 3px solid #4BA0D9;
+            background: transparent; }
 
 #wpfooter {
   margin-left: 220px; }
@@ -129,6 +131,9 @@ img.help_tip {
 #post-status-info {
   box-shadow: none !important; }
 
+.wp-editor-expand div.mce-toolbar-grp {
+  z-index: 500; }
+
 .postbox {
   box-shadow: none !important; }
 
@@ -139,7 +144,7 @@ img.help_tip {
 #adminmenuwrap,
 #adminmenu {
   width: 180px;
-  z-index: 100;
+  z-index: 900 !important;
   background: #364052;
   border-right: none; }
 
@@ -167,7 +172,8 @@ img.help_tip {
       font-weight: bold;
       color: white; }
   #adminmenuwrap ul#adminmenu li.wp-not-current-submenu ul.wp-submenu {
-    left: 180px; }
+    left: 180px;
+    box-shadow: none !important; }
   #adminmenuwrap ul#adminmenu li.wp-has-submenu ul.wp-submenu {
     width: 180px;
     background: #242B37; }
