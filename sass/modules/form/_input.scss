@@ -10,3 +10,8 @@ input[type="search"]{
   box-shadow: none !important;
   border-radius: 3px !important;
 }
+
+// Tag input
+input[type="text"].newtag{
+  height: 26px !important;
+}

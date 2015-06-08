@@ -127,6 +127,12 @@ img.help_tip {
   border: thin solid #4BA0D9 !important;
   background-color: #4BA0D9 !important; }
 
+#post-status-info {
+  box-shadow: none !important; }
+
+.postbox {
+  box-shadow: none !important; }
+
 #wpadminbar {
   background: #242B37; }
 
@@ -194,6 +200,9 @@ input[type="search"] {
   box-shadow: none !important;
   border-radius: 3px !important; }
 
+input[type="text"].newtag {
+  height: 26px !important; }
+
 .button, .acf-button,
 .add-new-h2 {
   height: 35px !important;
@@ -228,10 +237,12 @@ input[type="search"] {
 .wp-filter .button,
 .wp-filter .acf-button,
 .wp-filter .add-new-h2,
-.button-small {
+.button-small,
+.tagadd {
   height: auto !important;
+  padding: 0 10px !important;
   line-height: 26px !important;
-  padding: 0 10px !important; }
+  border-radius: 3px !important; }
 
 select {
   margin: 0 !important;

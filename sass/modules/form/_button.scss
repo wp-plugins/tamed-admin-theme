@@ -39,8 +39,11 @@
 .actions .button,
 .search-box .button,
 .wp-filter .button,
-.button-small{
+.button-small,
+.tagadd{
   height: auto !important;
-  line-height: 26px !important;
   padding: 0 10px !important;
+  
+  line-height: 26px !important;
+  border-radius: 3px !important;
 }
