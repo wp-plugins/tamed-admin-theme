@@ -2,7 +2,7 @@
 Contributors: lucawater
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KP8MQXS4NNU36
 Tags: theme, basic, clean, minimalistic, wordpress admin, backend, backend theme, admin theme, custom admin, custom admin theme
-Requires at least: 3.0.1
+Requires at least: 3.0
 Tested up to: 4.2.2
 Stable tag: 1.0.1
 License: GPLv2 or later
