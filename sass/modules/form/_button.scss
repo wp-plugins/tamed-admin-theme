@@ -1,0 +1,49 @@
+.button{
+  height: 35px !important;
+  padding: 0 40px !important;
+  
+  line-height: 35px !important;
+  border: none !important;
+  box-shadow: none !important;
+  background-color: #e0e0e0 !important;
+  border-radius: 3px !important;
+  
+  &:hover{
+    color: $white !important;
+    background-color: #c0c0c0 !important;
+  }
+  
+  &.button-primary,
+  &.blue{
+    background-color: $blue !important;
+    
+    &:hover{
+      background-color: $blue-medium !important;
+    }
+  }
+}
+
+// Buttons without 'button' class
+.acf-button,
+.add-new-h2{
+  @extend .button;
+}
+
+// 'Add new' button's extra styling
+.add-new-h2{
+  padding: (35px - 26px) 40px !important;
+  font-weight: normal !important;
+}
+
+// Buttons which need to stay small(er)
+.actions .button,
+.search-box .button,
+.wp-filter .button,
+.button-small,
+.tagadd{
+  height: auto !important;
+  padding: 0 10px !important;
+  
+  line-height: 26px !important;
+  border-radius: 3px !important;
+}

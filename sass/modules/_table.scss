@@ -1,0 +1,27 @@
+.wp-list-table{
+  tbody{
+    tr{
+      background: $white !important;
+      
+      > *{
+        padding-top: 10px !important;
+        padding-bottom: 5px !important;
+        border-bottom: thin solid $grey-light;
+      }
+    }
+  }
+}
+
+//Fast woocommerce fix
+.woocommerce_options_panel .short,
+.woocommerce_options_panel textarea{
+  width: 100% !important;
+}
+
+.woocommerce_options_panel textarea{
+  height: 10em !important;
+}
+
+img.help_tip{
+  margin: 0 0 0 5px !important;
+}

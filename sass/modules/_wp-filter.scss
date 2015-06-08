@@ -1,0 +1,23 @@
+.wp-filter{
+  box-shadow: none !important;
+  
+  // Media view switches
+  .view-switch a.current:before{
+    color: $blue !important;
+  }
+  
+  // Search form
+  .search-form{
+    line-height: 26px !important;
+    
+    input[type="search"]{
+      padding: 0 1em !important;
+      
+      font-size: 12px !important;
+    }
+  }
+}
+
+.media-frame.mode-grid .media-toolbar-secondary > .media-button{
+  margin-top: 13px;
+}
