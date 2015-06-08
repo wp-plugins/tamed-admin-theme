@@ -99,6 +99,19 @@ img.help_tip {
   padding: 15px !important;
   padding-left: 0 !important; }
 
+.wp-filter {
+  box-shadow: none !important; }
+  .wp-filter .view-switch a.current:before {
+    color: #4BA0D9 !important; }
+  .wp-filter .search-form {
+    line-height: 26px !important; }
+    .wp-filter .search-form input[type="search"] {
+      padding: 0 1em !important;
+      font-size: 12px !important; }
+
+.media-frame.mode-grid .media-toolbar-secondary > .media-button {
+  margin-top: 13px; }
+
 #wpadminbar {
   background: #242B37; }
 
