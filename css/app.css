@@ -112,6 +112,21 @@ img.help_tip {
 .media-frame.mode-grid .media-toolbar-secondary > .media-button {
   margin-top: 13px; }
 
+#wp-content-wrap #wp-content-editor-tools .wp-editor-tabs button {
+  border-radius: 3px !important; }
+  #wp-content-wrap #wp-content-editor-tools .wp-editor-tabs button:active, #wp-content-wrap #wp-content-editor-tools .wp-editor-tabs button:focus {
+    color: white !important;
+    border: thin solid #4BA0D9 !important;
+    background-color: #4BA0D9 !important; }
+#wp-content-wrap.tmce-active .wp-editor-tabs .switch-tmce {
+  color: white !important;
+  border: thin solid #4BA0D9 !important;
+  background-color: #4BA0D9 !important; }
+#wp-content-wrap.html-active .wp-editor-tabs .switch-html {
+  color: white !important;
+  border: thin solid #4BA0D9 !important;
+  background-color: #4BA0D9 !important; }
+
 #wpadminbar {
   background: #242B37; }
 
