@@ -5,7 +5,7 @@ Plugin Name: Tamed Admin Theme
 Plugin URI: 
 Description: A basic, clean Wordpress admin theme 
 Author: Luc Awater
-Version: 1.0
+Version: 1.0.1
 Author URI: http://lucawater.nl
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
