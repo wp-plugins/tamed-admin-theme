@@ -3,6 +3,7 @@ Contributors: lucawater
 Tags: theme, basic, clean, minimalistic, wordpress admin, backend, backend theme, admin theme, custom admin, custom admin theme
 Requires at least: 3.0.1
 Tested up to: 4.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,7 +34,10 @@ Nope, it does not. It is just a way to give a nice touch to the backend.
 
 == Changelog ==
 
-
+= 1.0.1 =
+* fixed "customize your site" button on dashboard
+* equalized and tweaked buttons
+* overall tidying up and straightening out
 
 == Upgrade Notice ==
 
