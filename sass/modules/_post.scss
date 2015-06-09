@@ -1,0 +1,15 @@
+#submitpost{
+  #save-action{
+    .button{
+      width: calc(100% - 50px);
+      margin-bottom: 10px;
+    }
+  }
+  
+  #preview-action{
+    .button{
+      width: calc(100% - 50px);
+      float: left;
+    }
+  }
+}

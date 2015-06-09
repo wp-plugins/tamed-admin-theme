@@ -137,6 +137,15 @@ img.help_tip {
 .postbox {
   box-shadow: none !important; }
 
+#submitpost #save-action .button, #submitpost #save-action .acf-button,
+#submitpost #save-action .add-new-h2 {
+  width: calc(100% - 50px);
+  margin-bottom: 10px; }
+#submitpost #preview-action .button, #submitpost #preview-action .acf-button,
+#submitpost #preview-action .add-new-h2 {
+  width: calc(100% - 50px);
+  float: left; }
+
 #wpadminbar {
   background: #242B37; }
 
