@@ -266,6 +266,11 @@ input[type="text"].newtag {
   .wc-reload.add-new-h2:after {
     line-height: 28px !important; }
 
+.postbox .button.pip-link, .postbox .pip-link.acf-button,
+.postbox .pip-link.add-new-h2 {
+  width: 100%;
+  margin: 5px 0 !important; }
+
 select {
   margin: 0 !important;
   margin-right: 5px !important;
