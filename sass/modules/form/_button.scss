@@ -64,3 +64,17 @@
   
   text-align: center !important;
 }
+
+table.wp-list-table .order_actions .button{
+  width: 25px !important;
+  height: 25px !important;
+  padding: 0 !important;
+  
+  line-height: 25px !important;
+  
+  img{
+    width: auto !important;
+    height: 12px !important;
+    margin: 6px auto !important;
+  }
+}
