@@ -146,6 +146,9 @@ img.help_tip {
   width: calc(100% - 50px);
   float: left; }
 
+#post-body #edit-slug-box {
+  margin: 10px 0 !important; }
+
 #wpadminbar {
   background: #242B37; }
 
