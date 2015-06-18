@@ -268,8 +268,9 @@ input[type="text"].newtag {
 
 .postbox .button.pip-link, .postbox .pip-link.acf-button,
 .postbox .pip-link.add-new-h2 {
-  width: 100%;
-  margin: 5px 0 !important; }
+  width: 100% !important;
+  margin: 5px 0 !important;
+  text-align: center !important; }
 
 select {
   margin: 0 !important;
