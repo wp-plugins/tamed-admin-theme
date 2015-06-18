@@ -47,3 +47,13 @@
   line-height: 26px !important;
   border-radius: 3px !important;
 }
+
+// Woocommerce support
+.button.wc-reload{
+  height: 28px !important;
+  padding: 0 !important;
+  
+  &:after{
+    line-height: 28px !important;
+  }
+}

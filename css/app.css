@@ -258,6 +258,14 @@ input[type="text"].newtag {
   line-height: 26px !important;
   border-radius: 3px !important; }
 
+.button.wc-reload, .wc-reload.acf-button,
+.wc-reload.add-new-h2 {
+  height: 28px !important;
+  padding: 0 !important; }
+  .button.wc-reload:after, .wc-reload.acf-button:after,
+  .wc-reload.add-new-h2:after {
+    line-height: 28px !important; }
+
 select {
   margin: 0 !important;
   margin-right: 5px !important;
